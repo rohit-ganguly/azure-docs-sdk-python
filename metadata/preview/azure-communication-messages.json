@@ -1,7 +1,7 @@
 {
   "Name": "azure-communication-messages",
-  "Version": "1.0.1a20240723001",
-  "DevVersion": "1.0.1a20240723001",
+  "Version": "1.0.1a20240723004",
+  "DevVersion": "1.0.1a20240723004",
   "DirectoryPath": "sdk/communication/azure-communication-messages",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/azure-communication-messages/README.md",

@@ -6,7 +6,7 @@ ms.topic: reference
 ms.devlang: python
 ms.service: communication
 ---
-# Azure Communication Rooms client library for Python - version 1.1.0a20240723001 
+# Azure Communication Rooms client library for Python - version 1.1.0a20240723004 
 
 This package contains a Python SDK for Azure Communication Services for Rooms.
 Read more about Azure Communication Services [here](/azure/communication-services/overview)

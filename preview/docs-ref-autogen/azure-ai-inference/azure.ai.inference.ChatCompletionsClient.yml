@@ -48,12 +48,9 @@ methods:
     "completes" provided prompt data. When using this method with *stream=True*, the
     response is streamed
 
-    back to the client. Iterate over the resulting ~azure.ai.inference.models.StreamingChatCompletions
+    back to the client. Iterate over the resulting <xref:azure.ai.inference.models.StreamingChatCompletions>
 
-    object to get content updates as they arrive.
-
-
-    :raises ~azure.core.exceptions.HttpResponseError'
+    object to get content updates as they arrive.'
   signature: 'complete(*, messages: List[_models.ChatRequestMessage], content_type:
     str = ''application/json'', model_extras: Dict[str, Any] | None = None, frequency_penalty:
     float | None = None, presence_penalty: float | None = None, temperature: float
@@ -249,17 +246,18 @@ methods:
     types:
     - <xref:azure.ai.inference.models.ChatCompletions>
     - <xref:azure.ai.inference.models.StreamingChatCompletions>
+  exceptions:
+  - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.inference.ChatCompletionsClient.get_model_info
   name: get_model_info
-  summary: 'Returns information about the AI model.
-
-
-    :raises ~azure.core.exceptions.HttpResponseError'
+  summary: Returns information about the AI model.
   signature: 'get_model_info(**kwargs: Any) -> ModelInfo'
   return:
     description: ModelInfo. The ModelInfo is compatible with MutableMapping
     types:
     - <xref:azure.ai.inference.models.ModelInfo>
+  exceptions:
+  - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.inference.ChatCompletionsClient.send_request
   name: send_request
   summary: 'Runs the network request through the client''s chained policies.

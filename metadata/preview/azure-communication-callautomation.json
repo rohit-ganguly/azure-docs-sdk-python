@@ -1,7 +1,7 @@
 {
   "Name": "azure-communication-callautomation",
-  "Version": "1.3.0a20240725001",
-  "DevVersion": "1.3.0a20240725001",
+  "Version": "1.3.0a20240725002",
+  "DevVersion": "1.3.0a20240725002",
   "DirectoryPath": "sdk/communication/azure-communication-callautomation",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/azure-communication-callautomation/README.md",

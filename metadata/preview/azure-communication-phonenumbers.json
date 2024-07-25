@@ -1,7 +1,7 @@
 {
   "Name": "azure-communication-phonenumbers",
-  "Version": "1.2.0a20240725001",
-  "DevVersion": "1.2.0a20240725001",
+  "Version": "1.2.0a20240725002",
+  "DevVersion": "1.2.0a20240725002",
   "DirectoryPath": "sdk/communication/azure-communication-phonenumbers",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/azure-communication-phonenumbers/README.md",

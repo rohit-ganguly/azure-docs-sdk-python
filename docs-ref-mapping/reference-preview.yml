@@ -243,9 +243,9 @@
       children:
       - azure.ai.documentintelligence
     - name: Personalizer
+      href: ~/docs-ref-services/preview/ai-personalizer-readme.md
       children:
       - azure.ai.personalizer
-      landingPageType: Service
     - name: Document Translation
       href: ~/docs-ref-services/preview/ai-translation-document-readme.md
       children:
@@ -330,6 +330,16 @@
         href: ~/docs-ref-services/preview/mgmt-communication-readme.md
         children:
         - azure.mgmt.communication
+  - name: Computefleet
+    href: ~/docs-ref-services/preview/computefleet.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Computefleet
+        href: ~/docs-ref-services/preview/mgmt-computefleet-readme.md
+        children:
+        - azure.mgmt.computefleet
   - name: Confidential Ledger
     href: ~/docs-ref-services/preview/confidential-ledger.md
     landingPageType: Service

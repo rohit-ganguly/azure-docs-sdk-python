@@ -10,10 +10,7 @@ functions:
     to the */info* route
 
     on the given endpoint, to determine the model type and therefore which client
-    to instantiate.
-
-
-    :raises ~azure.core.exceptions.HttpResponseError'
+    to instantiate.'
   signature: 'async load_client(endpoint: str, credential: AzureKeyCredential | AsyncTokenCredential,
     **kwargs: Any) -> ChatCompletionsClient | EmbeddingsClient | ImageEmbeddingsClient'
   parameters:
@@ -47,6 +44,8 @@ functions:
     - <xref:azure.ai.inference.aio.ChatCompletionsClient>
     - <xref:azure.ai.inference.aio.EmbeddingsClient>
     - <xref:azure.ai.inference.aio.ImageEmbeddingsClient>
+  exceptions:
+  - type: azure.core.exceptions.HttpResponseError
 classes:
 - azure.ai.inference.aio.ChatCompletionsClient
 - azure.ai.inference.aio.EmbeddingsClient

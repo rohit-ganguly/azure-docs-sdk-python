@@ -1,7 +1,7 @@
 {
   "Name": "azure-communication-email",
-  "Version": "1.0.1a20240725003",
-  "DevVersion": "1.0.1a20240725003",
+  "Version": "1.0.1a20240725004",
+  "DevVersion": "1.0.1a20240725004",
   "DirectoryPath": "sdk/communication/azure-communication-email",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/azure-communication-email/README.md",

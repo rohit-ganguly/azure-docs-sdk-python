@@ -1,7 +1,7 @@
 {
   "Name": "azure-communication-chat",
-  "Version": "1.3.0a20240725005",
-  "DevVersion": "1.3.0a20240725005",
+  "Version": "1.3.0a20240726001",
+  "DevVersion": "1.3.0a20240726001",
   "DirectoryPath": "sdk/communication/azure-communication-chat",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/azure-communication-chat/README.md",

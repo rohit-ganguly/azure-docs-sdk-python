@@ -25954,18 +25954,12 @@
       uid: azure.mgmt.hybridcontainerservice.models.AgentPoolListResult
     - name: AgentPoolName
       uid: azure.mgmt.hybridcontainerservice.models.AgentPoolName
-    - name: AgentPoolPatch
-      uid: azure.mgmt.hybridcontainerservice.models.AgentPoolPatch
     - name: AgentPoolProfile
       uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProfile
     - name: AgentPoolProperties
       uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProperties
     - name: AgentPoolProvisioningStatus
       uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatus
-    - name: AgentPoolProvisioningStatusOperationStatus
-      uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatusOperationStatus
-    - name: AgentPoolProvisioningStatusOperationStatusError
-      uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatusOperationStatusError
     - name: AgentPoolProvisioningStatusStatus
       uid: azure.mgmt.hybridcontainerservice.models.AgentPoolProvisioningStatusStatus
     - name: AgentPoolUpdateProfile
@@ -25976,12 +25970,12 @@
       uid: azure.mgmt.hybridcontainerservice.models.CloudProviderProfile
     - name: CloudProviderProfileInfraNetworkProfile
       uid: azure.mgmt.hybridcontainerservice.models.CloudProviderProfileInfraNetworkProfile
-    - name: ControlPlaneEndpointProfile
-      uid: azure.mgmt.hybridcontainerservice.models.ControlPlaneEndpointProfile
-    - name: ControlPlaneEndpointProfileControlPlaneEndpoint
-      uid: azure.mgmt.hybridcontainerservice.models.ControlPlaneEndpointProfileControlPlaneEndpoint
+    - name: ClusterVMAccessProfile
+      uid: azure.mgmt.hybridcontainerservice.models.ClusterVMAccessProfile
     - name: ControlPlaneProfile
       uid: azure.mgmt.hybridcontainerservice.models.ControlPlaneProfile
+    - name: ControlPlaneProfileControlPlaneEndpoint
+      uid: azure.mgmt.hybridcontainerservice.models.ControlPlaneProfileControlPlaneEndpoint
     - name: CreatedByType
       uid: azure.mgmt.hybridcontainerservice.models.CreatedByType
     - name: CredentialResult
@@ -25992,6 +25986,8 @@
       uid: azure.mgmt.hybridcontainerservice.models.ErrorDetail
     - name: ErrorResponse
       uid: azure.mgmt.hybridcontainerservice.models.ErrorResponse
+    - name: Expander
+      uid: azure.mgmt.hybridcontainerservice.models.Expander
     - name: ExtendedLocation
       uid: azure.mgmt.hybridcontainerservice.models.ExtendedLocation
     - name: ExtendedLocationTypes
@@ -26000,10 +25996,10 @@
       uid: azure.mgmt.hybridcontainerservice.models.HybridIdentityMetadata
     - name: HybridIdentityMetadataList
       uid: azure.mgmt.hybridcontainerservice.models.HybridIdentityMetadataList
+    - name: HybridIdentityMetadataProperties
+      uid: azure.mgmt.hybridcontainerservice.models.HybridIdentityMetadataProperties
     - name: KubernetesPatchVersions
       uid: azure.mgmt.hybridcontainerservice.models.KubernetesPatchVersions
-    - name: KubernetesVersionCapabilities
-      uid: azure.mgmt.hybridcontainerservice.models.KubernetesVersionCapabilities
     - name: KubernetesVersionProfile
       uid: azure.mgmt.hybridcontainerservice.models.KubernetesVersionProfile
     - name: KubernetesVersionProfileList
@@ -26048,26 +26044,26 @@
       uid: azure.mgmt.hybridcontainerservice.models.Origin
     - name: OsType
       uid: azure.mgmt.hybridcontainerservice.models.OsType
+    - name: ProvisionedCluster
+      uid: azure.mgmt.hybridcontainerservice.models.ProvisionedCluster
     - name: ProvisionedClusterLicenseProfile
       uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterLicenseProfile
+    - name: ProvisionedClusterListResult
+      uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterListResult
     - name: ProvisionedClusterPoolUpgradeProfile
       uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPoolUpgradeProfile
     - name: ProvisionedClusterPoolUpgradeProfileProperties
       uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPoolUpgradeProfileProperties
     - name: ProvisionedClusterProperties
       uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterProperties
+    - name: ProvisionedClusterPropertiesAutoScalerProfile
+      uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesAutoScalerProfile
     - name: ProvisionedClusterPropertiesStatus
       uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesStatus
-    - name: ProvisionedClusterPropertiesStatusOperationStatus
-      uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesStatusOperationStatus
-    - name: ProvisionedClusterPropertiesStatusOperationStatusError
-      uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterPropertiesStatusOperationStatusError
     - name: ProvisionedClusterUpgradeProfile
       uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterUpgradeProfile
-    - name: ProvisionedClusters
-      uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusters
-    - name: ProvisionedClustersListResult
-      uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClustersListResult
+    - name: ProvisionedClusterUpgradeProfileProperties
+      uid: azure.mgmt.hybridcontainerservice.models.ProvisionedClusterUpgradeProfileProperties
     - name: ProvisioningState
       uid: azure.mgmt.hybridcontainerservice.models.ProvisioningState
     - name: ProxyResource
@@ -26076,6 +26072,12 @@
       uid: azure.mgmt.hybridcontainerservice.models.Resource
     - name: ResourceProvisioningState
       uid: azure.mgmt.hybridcontainerservice.models.ResourceProvisioningState
+    - name: StorageProfile
+      uid: azure.mgmt.hybridcontainerservice.models.StorageProfile
+    - name: StorageProfileNfsCSIDriver
+      uid: azure.mgmt.hybridcontainerservice.models.StorageProfileNfsCSIDriver
+    - name: StorageProfileSmbCSIDriver
+      uid: azure.mgmt.hybridcontainerservice.models.StorageProfileSmbCSIDriver
     - name: SystemData
       uid: azure.mgmt.hybridcontainerservice.models.SystemData
     - name: TrackedResource
@@ -26090,8 +26092,6 @@
       uid: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile
     - name: VirtualNetworkPropertiesInfraVnetProfileHci
       uid: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfileHci
-    - name: VirtualNetworkPropertiesInfraVnetProfileVmware
-      uid: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfileVmware
     - name: VirtualNetworkPropertiesStatus
       uid: azure.mgmt.hybridcontainerservice.models.VirtualNetworkPropertiesStatus
     - name: VirtualNetworkPropertiesStatusOperationStatus
@@ -26227,26 +26227,36 @@
     - items:
       - name: Overview
         uid: azure.mgmt.hybridnetwork.aio.operations
-      - name: DevicesOperations
-        uid: azure.mgmt.hybridnetwork.aio.operations.DevicesOperations
-      - name: NetworkFunctionVendorSkusOperations
-        uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionVendorSkusOperations
-      - name: NetworkFunctionVendorsOperations
-        uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionVendorsOperations
+      - name: ArtifactManifestsOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.ArtifactManifestsOperations
+      - name: ArtifactStoresOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.ArtifactStoresOperations
+      - name: ComponentsOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.ComponentsOperations
+      - name: ConfigurationGroupSchemasOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.ConfigurationGroupSchemasOperations
+      - name: ConfigurationGroupValuesOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.ConfigurationGroupValuesOperations
+      - name: NetworkFunctionDefinitionGroupsOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionDefinitionGroupsOperations
+      - name: NetworkFunctionDefinitionVersionsOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionDefinitionVersionsOperations
       - name: NetworkFunctionsOperations
         uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionsOperations
+      - name: NetworkServiceDesignGroupsOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.NetworkServiceDesignGroupsOperations
+      - name: NetworkServiceDesignVersionsOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.NetworkServiceDesignVersionsOperations
       - name: Operations
         uid: azure.mgmt.hybridnetwork.aio.operations.Operations
-      - name: RoleInstancesOperations
-        uid: azure.mgmt.hybridnetwork.aio.operations.RoleInstancesOperations
-      - name: VendorNetworkFunctionsOperations
-        uid: azure.mgmt.hybridnetwork.aio.operations.VendorNetworkFunctionsOperations
-      - name: VendorSkuPreviewOperations
-        uid: azure.mgmt.hybridnetwork.aio.operations.VendorSkuPreviewOperations
-      - name: VendorSkusOperations
-        uid: azure.mgmt.hybridnetwork.aio.operations.VendorSkusOperations
-      - name: VendorsOperations
-        uid: azure.mgmt.hybridnetwork.aio.operations.VendorsOperations
+      - name: ProxyArtifactOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.ProxyArtifactOperations
+      - name: PublishersOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.PublishersOperations
+      - name: SiteNetworkServicesOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.SiteNetworkServicesOperations
+      - name: SitesOperations
+        uid: azure.mgmt.hybridnetwork.aio.operations.SitesOperations
       name: operations
     - name: HybridNetworkManagementClient
       uid: azure.mgmt.hybridnetwork.aio.HybridNetworkManagementClient
@@ -26256,26 +26266,160 @@
       uid: azure.mgmt.hybridnetwork.models
     - name: ActionType
       uid: azure.mgmt.hybridnetwork.models.ActionType
-    - name: AzureStackEdgeFormat
-      uid: azure.mgmt.hybridnetwork.models.AzureStackEdgeFormat
+    - name: ApplicationEnablement
+      uid: azure.mgmt.hybridnetwork.models.ApplicationEnablement
+    - name: ArmResourceDefinitionResourceElementTemplate
+      uid: azure.mgmt.hybridnetwork.models.ArmResourceDefinitionResourceElementTemplate
+    - name: ArmResourceDefinitionResourceElementTemplateDetails
+      uid: azure.mgmt.hybridnetwork.models.ArmResourceDefinitionResourceElementTemplateDetails
+    - name: ArmTemplateArtifactProfile
+      uid: azure.mgmt.hybridnetwork.models.ArmTemplateArtifactProfile
+    - name: ArmTemplateMappingRuleProfile
+      uid: azure.mgmt.hybridnetwork.models.ArmTemplateMappingRuleProfile
+    - name: ArtifactAccessCredential
+      uid: azure.mgmt.hybridnetwork.models.ArtifactAccessCredential
+    - name: ArtifactChangeState
+      uid: azure.mgmt.hybridnetwork.models.ArtifactChangeState
+    - name: ArtifactChangeStateProperties
+      uid: azure.mgmt.hybridnetwork.models.ArtifactChangeStateProperties
+    - name: ArtifactManifest
+      uid: azure.mgmt.hybridnetwork.models.ArtifactManifest
+    - name: ArtifactManifestListResult
+      uid: azure.mgmt.hybridnetwork.models.ArtifactManifestListResult
+    - name: ArtifactManifestPropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.ArtifactManifestPropertiesFormat
+    - name: ArtifactManifestState
+      uid: azure.mgmt.hybridnetwork.models.ArtifactManifestState
+    - name: ArtifactManifestUpdateState
+      uid: azure.mgmt.hybridnetwork.models.ArtifactManifestUpdateState
+    - name: ArtifactProfile
+      uid: azure.mgmt.hybridnetwork.models.ArtifactProfile
+    - name: ArtifactReplicationStrategy
+      uid: azure.mgmt.hybridnetwork.models.ArtifactReplicationStrategy
+    - name: ArtifactState
+      uid: azure.mgmt.hybridnetwork.models.ArtifactState
+    - name: ArtifactStore
+      uid: azure.mgmt.hybridnetwork.models.ArtifactStore
+    - name: ArtifactStoreListResult
+      uid: azure.mgmt.hybridnetwork.models.ArtifactStoreListResult
+    - name: ArtifactStorePropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.ArtifactStorePropertiesFormat
+    - name: ArtifactStorePropertiesFormatManagedResourceGroupConfiguration
+      uid: azure.mgmt.hybridnetwork.models.ArtifactStorePropertiesFormatManagedResourceGroupConfiguration
+    - name: ArtifactStoreType
+      uid: azure.mgmt.hybridnetwork.models.ArtifactStoreType
+    - name: ArtifactType
+      uid: azure.mgmt.hybridnetwork.models.ArtifactType
+    - name: AzureArcK8SClusterNFVIDetails
+      uid: azure.mgmt.hybridnetwork.models.AzureArcK8SClusterNFVIDetails
+    - name: AzureArcKubernetesArtifactProfile
+      uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesArtifactProfile
+    - name: AzureArcKubernetesArtifactType
+      uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesArtifactType
+    - name: AzureArcKubernetesDeployMappingRuleProfile
+      uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesDeployMappingRuleProfile
+    - name: AzureArcKubernetesHelmApplication
+      uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesHelmApplication
+    - name: AzureArcKubernetesNetworkFunctionApplication
+      uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesNetworkFunctionApplication
+    - name: AzureArcKubernetesNetworkFunctionTemplate
+      uid: azure.mgmt.hybridnetwork.models.AzureArcKubernetesNetworkFunctionTemplate
+    - name: AzureContainerRegistryScopedTokenCredential
+      uid: azure.mgmt.hybridnetwork.models.AzureContainerRegistryScopedTokenCredential
+    - name: AzureCoreArmTemplateArtifactProfile
+      uid: azure.mgmt.hybridnetwork.models.AzureCoreArmTemplateArtifactProfile
+    - name: AzureCoreArmTemplateDeployMappingRuleProfile
+      uid: azure.mgmt.hybridnetwork.models.AzureCoreArmTemplateDeployMappingRuleProfile
+    - name: AzureCoreArtifactType
+      uid: azure.mgmt.hybridnetwork.models.AzureCoreArtifactType
+    - name: AzureCoreNFVIDetails
+      uid: azure.mgmt.hybridnetwork.models.AzureCoreNFVIDetails
+    - name: AzureCoreNetworkFunctionApplication
+      uid: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionApplication
+    - name: AzureCoreNetworkFunctionArmTemplateApplication
+      uid: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionArmTemplateApplication
+    - name: AzureCoreNetworkFunctionTemplate
+      uid: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionTemplate
+    - name: AzureCoreNetworkFunctionVhdApplication
+      uid: azure.mgmt.hybridnetwork.models.AzureCoreNetworkFunctionVhdApplication
+    - name: AzureCoreVhdImageArtifactProfile
+      uid: azure.mgmt.hybridnetwork.models.AzureCoreVhdImageArtifactProfile
+    - name: AzureCoreVhdImageDeployMappingRuleProfile
+      uid: azure.mgmt.hybridnetwork.models.AzureCoreVhdImageDeployMappingRuleProfile
+    - name: AzureOperatorNexusArmTemplateArtifactProfile
+      uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusArmTemplateArtifactProfile
+    - name: AzureOperatorNexusArmTemplateDeployMappingRuleProfile
+      uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusArmTemplateDeployMappingRuleProfile
+    - name: AzureOperatorNexusArtifactType
+      uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusArtifactType
+    - name: AzureOperatorNexusClusterNFVIDetails
+      uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusClusterNFVIDetails
+    - name: AzureOperatorNexusImageArtifactProfile
+      uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusImageArtifactProfile
+    - name: AzureOperatorNexusImageDeployMappingRuleProfile
+      uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusImageDeployMappingRuleProfile
+    - name: AzureOperatorNexusNetworkFunctionApplication
+      uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionApplication
+    - name: AzureOperatorNexusNetworkFunctionArmTemplateApplication
+      uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionArmTemplateApplication
+    - name: AzureOperatorNexusNetworkFunctionImageApplication
+      uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionImageApplication
+    - name: AzureOperatorNexusNetworkFunctionTemplate
+      uid: azure.mgmt.hybridnetwork.models.AzureOperatorNexusNetworkFunctionTemplate
+    - name: AzureStorageAccountContainerCredential
+      uid: azure.mgmt.hybridnetwork.models.AzureStorageAccountContainerCredential
+    - name: AzureStorageAccountCredential
+      uid: azure.mgmt.hybridnetwork.models.AzureStorageAccountCredential
+    - name: Component
+      uid: azure.mgmt.hybridnetwork.models.Component
+    - name: ComponentListResult
+      uid: azure.mgmt.hybridnetwork.models.ComponentListResult
+    - name: ComponentProperties
+      uid: azure.mgmt.hybridnetwork.models.ComponentProperties
+    - name: ConfigurationGenerationType
+      uid: azure.mgmt.hybridnetwork.models.ConfigurationGenerationType
+    - name: ConfigurationGroupSchema
+      uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchema
+    - name: ConfigurationGroupSchemaListResult
+      uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchemaListResult
+    - name: ConfigurationGroupSchemaPropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchemaPropertiesFormat
+    - name: ConfigurationGroupSchemaVersionUpdateState
+      uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupSchemaVersionUpdateState
+    - name: ConfigurationGroupValue
+      uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupValue
+    - name: ConfigurationGroupValueConfigurationType
+      uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupValueConfigurationType
+    - name: ConfigurationGroupValueListResult
+      uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupValueListResult
+    - name: ConfigurationGroupValuePropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.ConfigurationGroupValuePropertiesFormat
+    - name: ConfigurationValueWithSecrets
+      uid: azure.mgmt.hybridnetwork.models.ConfigurationValueWithSecrets
+    - name: ConfigurationValueWithoutSecrets
+      uid: azure.mgmt.hybridnetwork.models.ConfigurationValueWithoutSecrets
+    - name: ContainerizedNetworkFunctionDefinitionVersion
+      uid: azure.mgmt.hybridnetwork.models.ContainerizedNetworkFunctionDefinitionVersion
+    - name: ContainerizedNetworkFunctionNFVIType
+      uid: azure.mgmt.hybridnetwork.models.ContainerizedNetworkFunctionNFVIType
+    - name: ContainerizedNetworkFunctionTemplate
+      uid: azure.mgmt.hybridnetwork.models.ContainerizedNetworkFunctionTemplate
     - name: CreatedByType
       uid: azure.mgmt.hybridnetwork.models.CreatedByType
-    - name: CustomProfile
-      uid: azure.mgmt.hybridnetwork.models.CustomProfile
-    - name: DataDisk
-      uid: azure.mgmt.hybridnetwork.models.DataDisk
-    - name: Device
-      uid: azure.mgmt.hybridnetwork.models.Device
-    - name: DeviceListResult
-      uid: azure.mgmt.hybridnetwork.models.DeviceListResult
-    - name: DevicePropertiesFormat
-      uid: azure.mgmt.hybridnetwork.models.DevicePropertiesFormat
-    - name: DeviceRegistrationKey
-      uid: azure.mgmt.hybridnetwork.models.DeviceRegistrationKey
-    - name: DeviceType
-      uid: azure.mgmt.hybridnetwork.models.DeviceType
-    - name: DiskCreateOptionTypes
-      uid: azure.mgmt.hybridnetwork.models.DiskCreateOptionTypes
+    - name: CredentialType
+      uid: azure.mgmt.hybridnetwork.models.CredentialType
+    - name: CustomLocationResourceId
+      uid: azure.mgmt.hybridnetwork.models.CustomLocationResourceId
+    - name: DaemonSet
+      uid: azure.mgmt.hybridnetwork.models.DaemonSet
+    - name: DependsOnProfile
+      uid: azure.mgmt.hybridnetwork.models.DependsOnProfile
+    - name: Deployment
+      uid: azure.mgmt.hybridnetwork.models.Deployment
+    - name: DeploymentResourceIdReference
+      uid: azure.mgmt.hybridnetwork.models.DeploymentResourceIdReference
+    - name: DeploymentStatusProperties
+      uid: azure.mgmt.hybridnetwork.models.DeploymentStatusProperties
     - name: ErrorAdditionalInfo
       uid: azure.mgmt.hybridnetwork.models.ErrorAdditionalInfo
     - name: ErrorDetail
@@ -26284,148 +26428,226 @@
       uid: azure.mgmt.hybridnetwork.models.ErrorResponse
     - name: ExecuteRequestParameters
       uid: azure.mgmt.hybridnetwork.models.ExecuteRequestParameters
+    - name: HelmArtifactProfile
+      uid: azure.mgmt.hybridnetwork.models.HelmArtifactProfile
+    - name: HelmInstallOptions
+      uid: azure.mgmt.hybridnetwork.models.HelmInstallOptions
+    - name: HelmMappingRuleProfile
+      uid: azure.mgmt.hybridnetwork.models.HelmMappingRuleProfile
+    - name: HelmMappingRuleProfileOptions
+      uid: azure.mgmt.hybridnetwork.models.HelmMappingRuleProfileOptions
+    - name: HelmUpgradeOptions
+      uid: azure.mgmt.hybridnetwork.models.HelmUpgradeOptions
     - name: HttpMethod
       uid: azure.mgmt.hybridnetwork.models.HttpMethod
-    - name: IPAllocationMethod
-      uid: azure.mgmt.hybridnetwork.models.IPAllocationMethod
-    - name: IPVersion
-      uid: azure.mgmt.hybridnetwork.models.IPVersion
-    - name: ImageReference
-      uid: azure.mgmt.hybridnetwork.models.ImageReference
-    - name: LinuxConfiguration
-      uid: azure.mgmt.hybridnetwork.models.LinuxConfiguration
+    - name: IdType
+      uid: azure.mgmt.hybridnetwork.models.IdType
+    - name: ImageArtifactProfile
+      uid: azure.mgmt.hybridnetwork.models.ImageArtifactProfile
+    - name: ImageMappingRuleProfile
+      uid: azure.mgmt.hybridnetwork.models.ImageMappingRuleProfile
+    - name: ManagedResourceGroupConfiguration
+      uid: azure.mgmt.hybridnetwork.models.ManagedResourceGroupConfiguration
+    - name: ManagedServiceIdentity
+      uid: azure.mgmt.hybridnetwork.models.ManagedServiceIdentity
+    - name: ManagedServiceIdentityType
+      uid: azure.mgmt.hybridnetwork.models.ManagedServiceIdentityType
+    - name: ManifestArtifactFormat
+      uid: azure.mgmt.hybridnetwork.models.ManifestArtifactFormat
+    - name: MappingRuleProfile
+      uid: azure.mgmt.hybridnetwork.models.MappingRuleProfile
+    - name: NFVIType
+      uid: azure.mgmt.hybridnetwork.models.NFVIType
+    - name: NFVIs
+      uid: azure.mgmt.hybridnetwork.models.NFVIs
+    - name: NSDArtifactProfile
+      uid: azure.mgmt.hybridnetwork.models.NSDArtifactProfile
     - name: NetworkFunction
       uid: azure.mgmt.hybridnetwork.models.NetworkFunction
+    - name: NetworkFunctionApplication
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionApplication
+    - name: NetworkFunctionConfigurationType
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionConfigurationType
+    - name: NetworkFunctionDefinitionGroup
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionGroup
+    - name: NetworkFunctionDefinitionGroupListResult
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionGroupListResult
+    - name: NetworkFunctionDefinitionGroupPropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionGroupPropertiesFormat
+    - name: NetworkFunctionDefinitionResourceElementTemplateDetails
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionResourceElementTemplateDetails
+    - name: NetworkFunctionDefinitionVersion
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersion
+    - name: NetworkFunctionDefinitionVersionListResult
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersionListResult
+    - name: NetworkFunctionDefinitionVersionPropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersionPropertiesFormat
+    - name: NetworkFunctionDefinitionVersionUpdateState
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionDefinitionVersionUpdateState
     - name: NetworkFunctionListResult
       uid: azure.mgmt.hybridnetwork.models.NetworkFunctionListResult
-    - name: NetworkFunctionRoleConfiguration
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionRoleConfiguration
-    - name: NetworkFunctionRoleConfigurationType
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionRoleConfigurationType
-    - name: NetworkFunctionRoleInstanceListResult
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionRoleInstanceListResult
-    - name: NetworkFunctionSkuDetails
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionSkuDetails
-    - name: NetworkFunctionSkuListResult
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionSkuListResult
-    - name: NetworkFunctionSkuRoleDetails
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionSkuRoleDetails
-    - name: NetworkFunctionTemplate
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionTemplate
+    - name: NetworkFunctionPropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionPropertiesFormat
     - name: NetworkFunctionType
       uid: azure.mgmt.hybridnetwork.models.NetworkFunctionType
-    - name: NetworkFunctionUserConfiguration
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionUserConfiguration
-    - name: NetworkFunctionUserConfigurationOsProfile
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionUserConfigurationOsProfile
-    - name: NetworkFunctionVendor
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionVendor
-    - name: NetworkFunctionVendorConfiguration
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionVendorConfiguration
-    - name: NetworkFunctionVendorListResult
-      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionVendorListResult
-    - name: NetworkInterface
-      uid: azure.mgmt.hybridnetwork.models.NetworkInterface
-    - name: NetworkInterfaceIPConfiguration
-      uid: azure.mgmt.hybridnetwork.models.NetworkInterfaceIPConfiguration
-    - name: OperatingSystemTypes
-      uid: azure.mgmt.hybridnetwork.models.OperatingSystemTypes
+    - name: NetworkFunctionValueWithSecrets
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionValueWithSecrets
+    - name: NetworkFunctionValueWithoutSecrets
+      uid: azure.mgmt.hybridnetwork.models.NetworkFunctionValueWithoutSecrets
+    - name: NetworkServiceDesignGroup
+      uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignGroup
+    - name: NetworkServiceDesignGroupListResult
+      uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignGroupListResult
+    - name: NetworkServiceDesignGroupPropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignGroupPropertiesFormat
+    - name: NetworkServiceDesignVersion
+      uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersion
+    - name: NetworkServiceDesignVersionListResult
+      uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersionListResult
+    - name: NetworkServiceDesignVersionPropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersionPropertiesFormat
+    - name: NetworkServiceDesignVersionUpdateState
+      uid: azure.mgmt.hybridnetwork.models.NetworkServiceDesignVersionUpdateState
+    - name: NfviDetails
+      uid: azure.mgmt.hybridnetwork.models.NfviDetails
+    - name: OpenDeploymentResourceReference
+      uid: azure.mgmt.hybridnetwork.models.OpenDeploymentResourceReference
     - name: Operation
       uid: azure.mgmt.hybridnetwork.models.Operation
     - name: OperationDisplay
       uid: azure.mgmt.hybridnetwork.models.OperationDisplay
     - name: OperationListResult
       uid: azure.mgmt.hybridnetwork.models.OperationListResult
-    - name: OperationalState
-      uid: azure.mgmt.hybridnetwork.models.OperationalState
     - name: Origin
       uid: azure.mgmt.hybridnetwork.models.Origin
-    - name: OsDisk
-      uid: azure.mgmt.hybridnetwork.models.OsDisk
-    - name: OsProfile
-      uid: azure.mgmt.hybridnetwork.models.OsProfile
-    - name: PreviewSubscription
-      uid: azure.mgmt.hybridnetwork.models.PreviewSubscription
-    - name: PreviewSubscriptionsList
-      uid: azure.mgmt.hybridnetwork.models.PreviewSubscriptionsList
+    - name: Pod
+      uid: azure.mgmt.hybridnetwork.models.Pod
+    - name: PodEvent
+      uid: azure.mgmt.hybridnetwork.models.PodEvent
+    - name: PodEventType
+      uid: azure.mgmt.hybridnetwork.models.PodEventType
+    - name: PodStatus
+      uid: azure.mgmt.hybridnetwork.models.PodStatus
     - name: ProvisioningState
       uid: azure.mgmt.hybridnetwork.models.ProvisioningState
+    - name: ProxyArtifactListOverview
+      uid: azure.mgmt.hybridnetwork.models.ProxyArtifactListOverview
+    - name: ProxyArtifactOverview
+      uid: azure.mgmt.hybridnetwork.models.ProxyArtifactOverview
+    - name: ProxyArtifactOverviewListResult
+      uid: azure.mgmt.hybridnetwork.models.ProxyArtifactOverviewListResult
+    - name: ProxyArtifactOverviewPropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.ProxyArtifactOverviewPropertiesFormat
+    - name: ProxyArtifactOverviewPropertiesValue
+      uid: azure.mgmt.hybridnetwork.models.ProxyArtifactOverviewPropertiesValue
+    - name: ProxyArtifactVersionsListOverview
+      uid: azure.mgmt.hybridnetwork.models.ProxyArtifactVersionsListOverview
+    - name: ProxyArtifactVersionsOverviewListResult
+      uid: azure.mgmt.hybridnetwork.models.ProxyArtifactVersionsOverviewListResult
     - name: ProxyResource
       uid: azure.mgmt.hybridnetwork.models.ProxyResource
+    - name: Publisher
+      uid: azure.mgmt.hybridnetwork.models.Publisher
+    - name: PublisherListResult
+      uid: azure.mgmt.hybridnetwork.models.PublisherListResult
+    - name: PublisherPropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.PublisherPropertiesFormat
+    - name: PublisherScope
+      uid: azure.mgmt.hybridnetwork.models.PublisherScope
+    - name: ReferencedResource
+      uid: azure.mgmt.hybridnetwork.models.ReferencedResource
+    - name: ReplicaSet
+      uid: azure.mgmt.hybridnetwork.models.ReplicaSet
     - name: RequestMetadata
       uid: azure.mgmt.hybridnetwork.models.RequestMetadata
     - name: Resource
       uid: azure.mgmt.hybridnetwork.models.Resource
-    - name: RoleInstance
-      uid: azure.mgmt.hybridnetwork.models.RoleInstance
-    - name: SkuCredential
-      uid: azure.mgmt.hybridnetwork.models.SkuCredential
-    - name: SkuDeploymentMode
-      uid: azure.mgmt.hybridnetwork.models.SkuDeploymentMode
-    - name: SkuOverview
-      uid: azure.mgmt.hybridnetwork.models.SkuOverview
-    - name: SkuType
-      uid: azure.mgmt.hybridnetwork.models.SkuType
-    - name: SshConfiguration
-      uid: azure.mgmt.hybridnetwork.models.SshConfiguration
-    - name: SshPublicKey
-      uid: azure.mgmt.hybridnetwork.models.SshPublicKey
+    - name: ResourceElementTemplate
+      uid: azure.mgmt.hybridnetwork.models.ResourceElementTemplate
+    - name: Resources
+      uid: azure.mgmt.hybridnetwork.models.Resources
+    - name: SecretDeploymentResourceReference
+      uid: azure.mgmt.hybridnetwork.models.SecretDeploymentResourceReference
+    - name: Site
+      uid: azure.mgmt.hybridnetwork.models.Site
+    - name: SiteListResult
+      uid: azure.mgmt.hybridnetwork.models.SiteListResult
+    - name: SiteNetworkService
+      uid: azure.mgmt.hybridnetwork.models.SiteNetworkService
+    - name: SiteNetworkServiceListResult
+      uid: azure.mgmt.hybridnetwork.models.SiteNetworkServiceListResult
+    - name: SiteNetworkServicePropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.SiteNetworkServicePropertiesFormat
+    - name: SitePropertiesFormat
+      uid: azure.mgmt.hybridnetwork.models.SitePropertiesFormat
+    - name: Sku
+      uid: azure.mgmt.hybridnetwork.models.Sku
+    - name: SkuName
+      uid: azure.mgmt.hybridnetwork.models.SkuName
+    - name: SkuTier
+      uid: azure.mgmt.hybridnetwork.models.SkuTier
+    - name: StatefulSet
+      uid: azure.mgmt.hybridnetwork.models.StatefulSet
     - name: Status
       uid: azure.mgmt.hybridnetwork.models.Status
-    - name: StorageProfile
-      uid: azure.mgmt.hybridnetwork.models.StorageProfile
-    - name: SubResource
-      uid: azure.mgmt.hybridnetwork.models.SubResource
     - name: SystemData
       uid: azure.mgmt.hybridnetwork.models.SystemData
     - name: TagsObject
       uid: azure.mgmt.hybridnetwork.models.TagsObject
+    - name: TemplateType
+      uid: azure.mgmt.hybridnetwork.models.TemplateType
     - name: TrackedResource
       uid: azure.mgmt.hybridnetwork.models.TrackedResource
-    - name: VMSwitchType
-      uid: azure.mgmt.hybridnetwork.models.VMSwitchType
-    - name: Vendor
-      uid: azure.mgmt.hybridnetwork.models.Vendor
-    - name: VendorListResult
-      uid: azure.mgmt.hybridnetwork.models.VendorListResult
-    - name: VendorNetworkFunction
-      uid: azure.mgmt.hybridnetwork.models.VendorNetworkFunction
-    - name: VendorNetworkFunctionListResult
-      uid: azure.mgmt.hybridnetwork.models.VendorNetworkFunctionListResult
-    - name: VendorProvisioningState
-      uid: azure.mgmt.hybridnetwork.models.VendorProvisioningState
-    - name: VendorSku
-      uid: azure.mgmt.hybridnetwork.models.VendorSku
-    - name: VendorSkuListResult
-      uid: azure.mgmt.hybridnetwork.models.VendorSkuListResult
-    - name: VirtualHardDisk
-      uid: azure.mgmt.hybridnetwork.models.VirtualHardDisk
-    - name: VirtualMachineSizeTypes
-      uid: azure.mgmt.hybridnetwork.models.VirtualMachineSizeTypes
+    - name: Type
+      uid: azure.mgmt.hybridnetwork.models.Type
+    - name: UserAssignedIdentity
+      uid: azure.mgmt.hybridnetwork.models.UserAssignedIdentity
+    - name: VersionState
+      uid: azure.mgmt.hybridnetwork.models.VersionState
+    - name: VhdImageArtifactProfile
+      uid: azure.mgmt.hybridnetwork.models.VhdImageArtifactProfile
+    - name: VhdImageMappingRuleProfile
+      uid: azure.mgmt.hybridnetwork.models.VhdImageMappingRuleProfile
+    - name: VirtualNetworkFunctionDefinitionVersion
+      uid: azure.mgmt.hybridnetwork.models.VirtualNetworkFunctionDefinitionVersion
+    - name: VirtualNetworkFunctionNFVIType
+      uid: azure.mgmt.hybridnetwork.models.VirtualNetworkFunctionNFVIType
+    - name: VirtualNetworkFunctionTemplate
+      uid: azure.mgmt.hybridnetwork.models.VirtualNetworkFunctionTemplate
     name: models
   - items:
     - name: Overview
       uid: azure.mgmt.hybridnetwork.operations
-    - name: DevicesOperations
-      uid: azure.mgmt.hybridnetwork.operations.DevicesOperations
-    - name: NetworkFunctionVendorSkusOperations
-      uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionVendorSkusOperations
-    - name: NetworkFunctionVendorsOperations
-      uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionVendorsOperations
+    - name: ArtifactManifestsOperations
+      uid: azure.mgmt.hybridnetwork.operations.ArtifactManifestsOperations
+    - name: ArtifactStoresOperations
+      uid: azure.mgmt.hybridnetwork.operations.ArtifactStoresOperations
+    - name: ComponentsOperations
+      uid: azure.mgmt.hybridnetwork.operations.ComponentsOperations
+    - name: ConfigurationGroupSchemasOperations
+      uid: azure.mgmt.hybridnetwork.operations.ConfigurationGroupSchemasOperations
+    - name: ConfigurationGroupValuesOperations
+      uid: azure.mgmt.hybridnetwork.operations.ConfigurationGroupValuesOperations
+    - name: NetworkFunctionDefinitionGroupsOperations
+      uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionDefinitionGroupsOperations
+    - name: NetworkFunctionDefinitionVersionsOperations
+      uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionDefinitionVersionsOperations
     - name: NetworkFunctionsOperations
       uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionsOperations
+    - name: NetworkServiceDesignGroupsOperations
+      uid: azure.mgmt.hybridnetwork.operations.NetworkServiceDesignGroupsOperations
+    - name: NetworkServiceDesignVersionsOperations
+      uid: azure.mgmt.hybridnetwork.operations.NetworkServiceDesignVersionsOperations
     - name: Operations
       uid: azure.mgmt.hybridnetwork.operations.Operations
-    - name: RoleInstancesOperations
-      uid: azure.mgmt.hybridnetwork.operations.RoleInstancesOperations
-    - name: VendorNetworkFunctionsOperations
-      uid: azure.mgmt.hybridnetwork.operations.VendorNetworkFunctionsOperations
-    - name: VendorSkuPreviewOperations
-      uid: azure.mgmt.hybridnetwork.operations.VendorSkuPreviewOperations
-    - name: VendorSkusOperations
-      uid: azure.mgmt.hybridnetwork.operations.VendorSkusOperations
-    - name: VendorsOperations
-      uid: azure.mgmt.hybridnetwork.operations.VendorsOperations
+    - name: ProxyArtifactOperations
+      uid: azure.mgmt.hybridnetwork.operations.ProxyArtifactOperations
+    - name: PublishersOperations
+      uid: azure.mgmt.hybridnetwork.operations.PublishersOperations
+    - name: SiteNetworkServicesOperations
+      uid: azure.mgmt.hybridnetwork.operations.SiteNetworkServicesOperations
+    - name: SitesOperations
+      uid: azure.mgmt.hybridnetwork.operations.SitesOperations
     name: operations
   - name: HybridNetworkManagementClient
     uid: azure.mgmt.hybridnetwork.HybridNetworkManagementClient
